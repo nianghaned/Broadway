@@ -1,10 +1,71 @@
-*{
-  font-family: Helvetica;
+* {
+  text-align: center;
 }
 
+.container {
+    position: relative;
+}
+
+#heading
+ {
+
+	position: absolute;
+	top: -15%;
+	left: 30%
+}
+
+.nav {
+  transform: translate(-50%, -50%);
+	position: absolute;
+	top: 60%;
+	left:48%
+
+}
+
+
 h1{
+  font-family: Helvetica;
   font-size: 70px;
   font-weight: bold;
   color: white
-  
+
+}
+
+.nav {
+  font-family: Helvetica;
+  font-size: 18px;
+  color: white;
+
+}
+
+#process {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.head {
+  font-family: Helvetica;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.info {
+  font-family: Helvetica;
+  font-size: 14px;
+}
+
+#newYork {
+  font-family: Helvetica;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+}
+
+#bnav {
+  text-align: left;
+  background-color: dimgray;
+  font-size: 11px;
+  color: white;
 }
